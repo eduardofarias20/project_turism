@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+    background-color: #F5F4F0;
+}
+
+#page {
+    margin: 88px auto;
+    width: 1120px;
+    max-width: 1120px;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 28px;
+}
+
+#img {
+    padding-bottom: 40px;
+}
+
+#img>p {
+    font-style: italic;
+    text-align: center;
+    padding-top: 24px;
+}
+
+#history {
+    margin: 64px 0;
+}
+
+#templeb,
+#park {
+    margin-top: 48px
+}
+
+main {
+    border-top-color: #D9D9D9;
+    border-top-width: 1px;
+    border-top-style: solid;
+
+    padding-bottom: 40px;
+
+    border-bottom-color: #D9D9D9;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+ol {
+    font-size: 28px;
+    padding-top: 20px;
+    padding-left: 40px
+}
+
+span {
+    color: #E1624F;
+}
+
+h1 {
+    padding-bottom: 40px;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+
+p,
+span {
+    font-size: 16px;
+}
+
+h1,
+h2,
+ol {
+    color: #1B1B1B;
+}
+
+h1,
+h2,
+ol,
+span {
+    font-weight: bold;
+}
+
+br+span {
+    color: #333333;
+}
+
+section>ul {
+    color: #0C51A7;
+}
+
+li+li {
+    color: #E5245E;
+}
+
+li+li+li {
+    color: #E95E10;
+}
+
+#purple {
+    color: #591B98;
+}
+
+#conclusion>p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+ol li {
+    padding-bottom: 4px;
+}
+
+ul {
+    padding-left: 22px
+}
+
+li::marker {
+    color: #333333;
+}
+
+footer {
+    font-family: "Alice", serif;
+    text-align: center;
+    line-height: 150%;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
+}
